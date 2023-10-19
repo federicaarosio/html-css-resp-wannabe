@@ -142,6 +142,7 @@ img {
  @media screen and (max-width: 480px) {
     .container {
         width: 350px;
+        padding: 0;
     }
 
     .row {
@@ -155,4 +156,3 @@ img {
     .why-us .col-right {
         width: 100%;
     }
-}

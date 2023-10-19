@@ -149,7 +149,10 @@ img {
         flex-wrap: wrap;
     }
 
-    .lessons .col {
+    .lessons .col,
+    .steps .col,
+    .why-us .col-left,
+    .why-us .col-right {
         width: 100%;
     }
 }

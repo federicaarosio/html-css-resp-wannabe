@@ -170,9 +170,18 @@ img {
         margin-bottom: 3rem;
     }
 
-    .lessons .col:last-child,
+    .steps {
+        margin: 0;
+    }
+
     .steps .col:last-child {
         margin-bottom: 0;
+    }
+
+    section.why-us {
+        margin-bottom: 0;
+        padding: 3rem 0;
+        background-color: #222222;
     }
 
     .why-us img {

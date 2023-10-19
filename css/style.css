@@ -129,6 +129,12 @@ img {
  ************************************************/
 
 
+ /* --- desktop: dai 1160px in giù --- */
+ @media screen and (max-width:1160px) {
+    .container {
+        width: 900px;
+    }
+}
 
 
  /* --- tablet: dai 768px in giù --- */

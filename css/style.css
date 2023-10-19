@@ -135,3 +135,21 @@ img {
         width: 700px;
     }
 }
+
+
+ /* --- mobile: dai 480px in giù --- */
+
+ @media screen and (max-width: 480px) {
+    .container {
+        width: 350px;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .lessons .col {
+        width: 100%;
+    }
+}

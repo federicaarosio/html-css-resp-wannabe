@@ -146,7 +146,6 @@ img {
     }
 
     .row {
-        display: flex;
         flex-wrap: wrap;
     }
 
@@ -156,3 +155,10 @@ img {
     .why-us .col-right {
         width: 100%;
     }
+
+    .lessons .col,
+    .steps .col {
+        margin-bottom: 3rem;
+    }
+
+}

@@ -128,6 +128,9 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+
+
+
  /* --- tablet: dai 768px in giù --- */
 
 @media screen and (max-width: 768px) {
@@ -159,6 +162,11 @@ img {
     .lessons .col,
     .steps .col {
         margin-bottom: 3rem;
+    }
+
+    .lessons .col:last-child,
+    .steps .col:last-child {
+        margin-bottom: 0;
     }
 
     .why-us img {
